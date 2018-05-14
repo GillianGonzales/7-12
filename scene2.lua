@@ -1,3 +1,13 @@
+-----------------------------------------------------------------------------------------
+--
+-- scene2.lua
+--
+-- Created By Gillian Gonzales  
+-- Created On May 14 2018
+--
+-- Shows text "Scene 2" 
+-----------------------------------------------------------------------------------------
+
 local composer = require( "composer" )
  
 local scene = composer.newScene()
@@ -8,7 +18,13 @@ local scene = composer.newScene()
 -- -----------------------------------------------------------------------------------
  
  local function showScene1()
-     composer.gotoScene("scene1")
+
+    local options = {
+    effect = "fade",
+    time= 500
+    }
+
+    composer.gotoScene("scene1",options)
  end
  
 -- -----------------------------------------------------------------------------------
