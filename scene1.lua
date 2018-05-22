@@ -1,3 +1,13 @@
+-----------------------------------------------------------------------------------------
+--
+-- main.lua
+--
+-- Created By Gillian Gonzales  
+-- Created On May 14 2018
+--
+-- Shows text "Scene1"
+-----------------------------------------------------------------------------------------
+
 local composer = require( "composer" )
  
 local scene = composer.newScene()
